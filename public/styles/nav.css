@@ -1,0 +1,27 @@
+#nav-bar {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #00a087;
+    color: #e8fdff;
+  }
+
+#nav-bar .logo {
+  flex-basis: auto;
+  order: 0;
+  width: 100px;
+  height: 80px;
+  padding-left: 2em;
+}
+
+#nav-bar .header {
+  flex-basis: auto;
+  order: 1;
+  padding-left: 10px;
+  font-size: 200%;
+  line-height: 250%;
+}
+
