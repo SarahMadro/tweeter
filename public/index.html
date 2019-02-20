@@ -12,12 +12,15 @@
   <link rel="stylesheet" href="/styles/layout.css" type="text/css" />
   <link rel="stylesheet" href="/styles/nav.css" type="text/css" />
   <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
+  <link rel="stylesheet" href="/styles/allTweets.css" type="text/css" />
 
   <!-- External JS -->
   <script type="text/javascript" src="/vendor/jquery-2.2.3.min.js"></script>
 
   <!-- App JS -->
   <script type="text/javascript" src="/scripts/app.js"></script>
+  <script type="text/javascript" src="/scripts/composer-char-counter.js"></script>
+
 </head>
 
 <body>
@@ -32,11 +35,35 @@
   <main class="container">
     <section class="new-tweet">
       <h2>Compose Tweet</h2>
-        <form action='/tweets' method='POST' style='margin: auto'>
+      <form id='tweet-form' action='/tweets' method='POST' style='margin: auto'>
         <textarea name="text" placeholder="What are you humming about?"></textarea>
         <input type="submit" value="Tweet">
         <span class="counter">140</span>
       </form>
+    </section>
+
+    <section class='tweets-container'>
+      <article class='tweet'>
+        <header>
+          <img
+            class='tweet-img'
+            src='https://i.pinimg.com/736x/e1/a4/be/e1a4be2f86990e3d528f68c5349c30d2--emoji-emoticons-emojis.jpg'
+            alt='grumpySmiley'
+          />
+          <h2 class='name'>
+            stupid name
+          </h2>
+          <span class='username'>
+            username
+          </span>
+        </header>
+        <div class='the-tweet'>
+          idk what im doing
+        </div>
+        <footer class='tweet-footer'>
+          posted a pizza ago
+        </footer>
+      </article>
     </section>
   </main>
 

@@ -8,6 +8,7 @@ section.new-tweet {
   border: 2px solid #bfbaba;
   border-radius: 4px;
   background-color: #eee;
+  border-bottom-style: solid;
 }
 
 section.new-tweet input {

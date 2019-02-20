@@ -1,0 +1,109 @@
+article.tweet {
+  width: 80%;
+  margin: 8px;
+  margin-top: 50px;
+  margin-left: 45px;
+  box-sizing: border-box;
+  border: 2px solid #bfbaba;
+  border-radius: 8px;
+  background-color: #fff;
+  height: 202px;
+}
+
+article.tweet header {
+  width: 100%;
+  margin-top: 0px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  background-color: #eeeeee;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  content: "";
+  clear: both;
+  display: table;
+}
+
+article.tweet h2.name {
+  border: 2px;
+    float: left;
+    padding-left: 5px;
+}
+
+article.tweet span.username {
+  float: right;
+  padding-right: 10px;
+}
+
+article header .tweet-img {
+  border-style: none;
+  float: left;
+  width: 50px;
+  height: 50px;
+  border: 1px solid;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+div.the-tweet {
+  height: 75px;
+  padding-left: 10px;
+  padding-top: 25px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+footer {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.heart {
+  padding-right: 10px;
+  float: right;
+  padding-top: 4px;
+  opacity: 0
+}
+
+.flag {
+  float: right;
+  position: relative;
+  right: 22px;
+  bottom: -3px;
+  opacity: 0
+}
+
+.retweet {
+  float: right;
+  position: relative;
+  right: 40px;
+  bottom: -3px;
+  opacity: 0
+}
+
+/* HOVER-STATE*/
+
+article.tweet:hover {
+  border: 2px solid rgb(11, 104, 103);
+}
+
+article.tweet:hover .heart {
+  padding-right: 10px;
+  float: right;
+  padding-top: 4px;
+  opacity: 100
+}
+
+article.tweet:hover .retweet {
+  float: right;
+  position: relative;
+  right: 40px;
+  bottom: -3px;
+  opacity: 100
+}
+
+article.tweet:hover .flag {
+  float: right;
+  position: relative;
+  right: 22px;
+  bottom: -3px;
+  opacity: 100
+}
