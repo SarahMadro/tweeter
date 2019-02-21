@@ -12,5 +12,7 @@ $(`section.new-tweet textarea`).on(`input`, function(event) {
   } else {
     $counter.css(`color`, `black`);
   }
+})
+
 });
 
