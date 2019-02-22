@@ -19,4 +19,7 @@ This repository is the starter code for the project: Students will fork and clon
 - Express
 - Node 5.10.x or above
 
+## Screenshots
+
+!['screenshot of tweeter homepage'](https://github.com/sjay3000/tweeter/blob/master/docs/Screen%20Shot%202019-02-21%20at%207.00.22%20PM.png)
 
