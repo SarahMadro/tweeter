@@ -4,23 +4,23 @@ article.tweet {
   margin-top: 50px;
   margin-left: 45px;
   box-sizing: border-box;
-  border: 2px solid #bfbaba;
+  border: 2px solid #465b47;
   border-radius: 8px;
   background-color: #fff;
   height: 202px;
 }
 
 article.tweet header {
-  width: 100%;
-  margin-top: 0px;
-  padding-left: 10px;
-  padding-bottom: 0px;
-  background-color: #eeeeee;
-  margin-bottom: 5px;
-  padding-top: 0px;
-  content: "";
-  clear: both;
-  display: table;
+width: 100%;
+padding-left: 10px;
+padding-bottom: 0px;
+background-color: #29492a1a;
+margin-bottom: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+content: "";
+clear: both;
+display: table;
 }
 
 article.tweet h2.name {
@@ -40,14 +40,11 @@ article.tweet img {
   float: left;
   width: 50px;
   height: 50px;
-  border: 1px solid;
+  border: 1px solid #d5ecd5;
   border-radius: 5px;
   margin-right: 10px;
-  margin-top: 9px;
   border-radius: 5px;
-  margin-top: 5px;
   }
-}
 
 div.the-tweet {
   height: 82px;
@@ -102,12 +99,12 @@ footer {
     sans-serif;
 }
 
-
-
 /* HOVER-STATE*/
 
 article.tweet:hover {
-  border: 2px solid rgb(11, 104, 103);
+  border: 2px solid rgb(42, 99, 77);
+  border-color: #465b47;
+  box-shadow: 0 0 3px 3px #465b47;
 }
 
 article.tweet:hover .heart {

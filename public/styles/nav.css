@@ -5,8 +5,8 @@
   top: 0;
   width: 100%;
   height: 80px;
-  background-color: #00a087;
-  color: #e8fdff;
+  background-color: #465b47;
+  color: rgb(238, 237, 244);
 }
 
 #nav-bar .logo {
@@ -30,7 +30,7 @@ button.compose-tweet {
   margin-top: 9px;
   border-radius: 4px;
   border: 1px solid #154f52;
-  color: #5d9b85;
+  color: #154f52;
   background: #e4efeb;
   font-size: larger;
   position: absolute;
@@ -38,8 +38,8 @@ button.compose-tweet {
 }
 
 button.compose-tweet:hover {
-  border: 1px solid black;
-  color: black;
+  border-color: #d9fedb;
+  box-shadow: 0 0 3px 3px #d9fedb;
   background: white;
 }
 
