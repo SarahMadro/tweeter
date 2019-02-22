@@ -35,7 +35,7 @@ article.tweet span.username {
   padding-top: 10px;
 }
 
-article header .tweet-img {
+article.tweet img {
   border-style: none;
   float: left;
   width: 50px;
@@ -44,6 +44,9 @@ article header .tweet-img {
   border-radius: 5px;
   margin-right: 10px;
   margin-top: 9px;
+  border-radius: 5px;
+  margin-top: 5px;
+  }
 }
 
 div.the-tweet {
