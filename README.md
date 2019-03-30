@@ -24,5 +24,5 @@ This repository is the starter code for the project: Students will fork and clon
 !['screenshot of tweeter homepage'](https://github.com/SarahMadro/tweeter/blob/master/docs/Screen%20Shot%202019-03-29%20at%2010.34.09%20PM.png)
 
 
-!['screenshot of tweeter homepage']()
+!['screenshot of tweeter homepage'](https://github.com/SarahMadro/tweeter/blob/master/docs/Screen%20Shot%202019-03-29%20at%2010.34.22%20PM.png)
 
