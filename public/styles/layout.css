@@ -19,8 +19,8 @@ html {
 
 body {
   margin: 0;
-  color: #244751;
-  background-color: #29492a38;
+  color: #6d9fe9;
+  background-color: #d2def0;
   font-family: 'Roboto Condensed',
     sans-serif;
 }
@@ -49,7 +49,7 @@ section.tweetsContainer {
   margin-top: 50px;
   margin-left: 45px;
   box-sizing: border-box;
-  border: 2px solid #bfbaba;
+  border: 2px solid #6d9fe9;
   border-radius: 4px;
   background-color: #eee;
   border-bottom-style: solid;

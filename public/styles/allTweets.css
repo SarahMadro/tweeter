@@ -4,23 +4,23 @@ article.tweet {
   margin-top: 50px;
   margin-left: 45px;
   box-sizing: border-box;
-  border: 2px solid #465b47;
+  border: 2px solid #6d9fe9;
   border-radius: 8px;
-  background-color: #fff;
+  background-color: white;
   height: 202px;
 }
 
 article.tweet header {
-width: 100%;
-padding-left: 10px;
-padding-bottom: 0px;
-background-color: #29492a1a;
-margin-bottom: 10px;
-padding-top: 5px;
-padding-bottom: 5px;
-content: "";
-clear: both;
-display: table;
+  width: 100%;
+  padding-left: 10px;
+  padding-bottom: 0px;
+  background-color: #d2def0;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  content: "";
+  clear: both;
+  display: table;
 }
 
 article.tweet h2.name {
@@ -40,17 +40,16 @@ article.tweet img {
   float: left;
   width: 50px;
   height: 50px;
-  border: 1px solid #d5ecd5;
   border-radius: 5px;
   margin-right: 10px;
   border-radius: 5px;
-  }
+}
 
 div.the-tweet {
   height: 82px;
   padding-left: 10px;
   padding-top: 25px;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid #d2def0;
   overflow-wrap: break-word;
   padding-right: 5px;
 }
@@ -85,16 +84,16 @@ footer {
 
 .error1 {
   margin: auto;
-  color: #244751;
-  background-color: #eee;
+  color: white;
+  background-color: #dd0b0b;
   font-family: 'Roboto Condensed',
     sans-serif;
 }
 
 .error2 {
   margin: auto;
-  color: #244751;
-  background-color: #eee;
+  color: white;
+  background-color: #dd0b0b;
   font-family: 'Roboto Condensed',
     sans-serif;
 }
@@ -102,9 +101,9 @@ footer {
 /* HOVER-STATE*/
 
 article.tweet:hover {
-  border: 2px solid rgb(42, 99, 77);
-  border-color: #465b47;
-  box-shadow: 0 0 3px 3px #465b47;
+  border: 2px solid #6d9fe9(42, 99, 77);
+  border-color: #6d9fe9;
+  box-shadow: 0 0 3px 3px #6d9fe9;
 }
 
 article.tweet:hover .heart {

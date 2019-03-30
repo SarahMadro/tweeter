@@ -5,20 +5,20 @@ section.new-tweet {
   margin-top: 50px;
   margin-left: 45px;
   box-sizing: border-box;
-  border: 2px solid #465b47;
+  border: 2px solid #6d9fe9;
   border-radius: 4px;
-  background-color: #29492a1a;
+  background-color: #d2def0;
   border-bottom-style: solid;
 }
 
 section.new-tweet input {
-    margin-right: 36px;
-    margin-left: 115px;
-    padding-left: 17px;
-    padding-right: 15px;
-    border-radius: 5px;
-    width: 100px;
-    border: 1px solid #465b47;
+  margin-right: 36px;
+  margin-left: 115px;
+  padding-left: 17px;
+  padding-right: 15px;
+  border-radius: 5px;
+  width: 100px;
+  border: 1px solid #6d9fe9;
 }
 
 textarea {
@@ -34,6 +34,7 @@ span.counter {
 }
 
 textarea:hover {
-  border-color: #465b47;
-  box-shadow: 0 0 3px 3px #465b47;
+  border-color: #6d9fe9;
+  box-shadow: 0 0 3px 3px #6d9fe9;
+  background: white;
 }
